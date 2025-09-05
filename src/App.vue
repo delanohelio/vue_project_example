@@ -1,4 +1,5 @@
 <script setup>
+import ButtonIncrement from './components/ButtonIncrement.vue';
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
 </script>
@@ -9,6 +10,7 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="Hello everyone!" />
+      <ButtonIncrement />
     </div>
   </header>
 
